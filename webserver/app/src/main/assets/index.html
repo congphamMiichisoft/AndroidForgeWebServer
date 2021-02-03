@@ -18,10 +18,10 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, height=device-height, minimal-ui, minimum-scale=1, initial-scale=1, user-scalable=no"/>
-        
-        <link rel="stylesheet" href="./lmv/3.3/style.min.css" type="text/css"/>
-        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="viewport" content="width=device-width, height=device-height, minimal-ui, minimum-scale=1.0, initial-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="lvm/7.1/style.css" type="text/css"/>
+        <script src="lvm/7.1/viewer3D.js"></script>
+        <meta name="apple-mobile-web-app-capable" content="yes">
             <meta name="mobile-web-app-capable" content="yes"/>
             <title>
                 Forge Viewer
@@ -50,17 +50,15 @@
                     #viewer #modelTools #toolbar-sectionTool{display:block !important}
                     #viewer #modelTools{background-color: rgba(34,34,34,1);margin: 0px;box-shadow:none;border-top-left-radius: 0px;border-top-right-radius: 5px;border-bottom-left-radius: 0px;border-bottom-right-radius: 5px;}
                     #viewer #navTools{background-color: rgba(34,34,34,1);margin: 0px;box-shadow:none;border-top-left-radius: 5px;border-top-right-radius: 0px;border-bottom-left-radius: 5px;border-bottom-right-radius: 0px}
-                    /* #viewer #guiviewer3d-toolbar{background-color: rgba(34,34,34,1);border-radius: 5px;padding: 0px;width: 300px;} */
                     #viewer #guiviewer3d-toolbar{background-color: rgba(34, 34, 34, 0);padding: 0px;}
-                    /* #viewer > div > div.progressbg {display: none;} */
+                    #viewer > div > div.progressbg {display: none;}
                     </style>
                 
                 </head>
     <body>
         
         <div id="viewer" class="viewer"></div>
-        <!--        <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>-->
-        <script src="./lmv/3.3/viewer3D.js"></script>
+        
         
         <script>
             var viewerDiv = document.getElementById("viewer")
@@ -127,7 +125,6 @@
             return items
         }
         function getQueryParam (name, url) {
-            
             if (!url) url = window.location.href;
             name = name.replace(/[\\[\\]]/g, "\\$&");
             var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -142,46 +139,22 @@
             env: "Local"
             
         }).then(function() {
-            
             viewer.addEventListener(Autodesk.Viewing.TOOLBAR_CREATED_EVENT, function (event) {
-                viewer.fitToView(true);
                 viewer.navTools.setVisible(false);
                 viewer.modelTools.setVisible(false);
                 viewer.settingsTools.setVisible(false);
                 
             });
             viewer.addEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, function (event) {
-                
                 viewer.navTools.setVisible(true);
                 viewer.modelTools.setVisible(true);
-                viewer.fitToView()
-                
             });
             viewer.start()
-            
-            //      viewer.loadModel('./www/models/3D6/0.svf')
-            viewer.loadModel('./0/0.svf')
+            viewer.loadModel('/shaver/0.svf')
             viewer.addEventListener(Autodesk.Viewing.MODEL_LAYERS_LOADED_EVENT, function (event) {
-                var nav = viewer.navigation
-
-var pos = nav.getPosition()
-
-var target = nav.getTarget()
-
-var viewdir = new THREE.Vector3()
-
-viewdir.subVectors (pos, target).normalize()
-
-// zooms out by 100 along the view direction
-viewdir.multiplyScalar (25)
-
-pos.add(viewdir)
-
-nav.setPosition(pos)
+                viewer.navigation.setRequestHomeView(true)
             })
         })
-        
             </script>
-        
     </body>
 </html>

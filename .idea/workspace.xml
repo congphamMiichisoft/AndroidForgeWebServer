@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6eba360-96da-4d2f-8ed8-f782327192b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0.pf" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0.pf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0.svf" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0.svf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0_100.png" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0_100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0_200.png" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0_200.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0_400.png" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/0_400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/1.pf" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/1.pf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/CameraDefinitions.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/CameraDefinitions.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/FragmentList.pack" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/FragmentList.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/GeometryMetadata.pf" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/GeometryMetadata.pf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/InstanceTree.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/InstanceTree.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/Materials.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/Materials.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_attrs.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_attrs.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_avs.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_avs.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_ids.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_ids.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_offs.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_offs.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_vals.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_vals.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_viewables.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/objects_viewables.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/0/properties.db" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/0/properties.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/0.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/1.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/10.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/1038_4acef6ba0f9b3bb9754704c67889a4c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/1045_9b18a28a918c0574d879491cf45072ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/107402__27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/108_2213609ba20ba5415333f5fae55228b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/11.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/1101_4e050c4aeca8f2501314ab84e3967107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/12.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/13.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/14.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/15.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/151878_boxen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/153979_boxen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/16.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/1622315_arch20_notes_page_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/1629684_arch20_notes_page_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/17.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/18.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/19.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/191_xxs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/199_919814_511549808904642_1921157711_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/2.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/20.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/202699__41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/203_0_f6db4f3d223b435f665c75f09224d2b6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/21.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/229_0_28. R3201C D_b Windsor 130x130 cm Pfleiderer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/229_28. R3201C D_b Windsor 130x130 cm Pfleiderer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/233_0_21131309_pad_253_200_dla-domu-dekoracje-wystroj-okien-rolety-roleta-mini-home-zaciemniajaca-38-x-150-cm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/237_19672713_pad_253_200_dla-domu-dekoracje-obrazy-brazowa-mapa-swiata-obraz-na-plotnie-canvas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/275_images123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/279_srodek-szafy-najczesciej-zalezy-od-decyzji-uzytkownika.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/283_Szafa-wn_kowa-przyk_adowe-zagospodarowanie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/287_24557655_max_900_1200_dla-domu-dekoracje-tapety-i-fototapety-fototapety-fototapeta-kobiety-art07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/291_6d702d68a32b188682e447840966ddf0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/3.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/331_zrzut-ekranu-2015-01-06-o-20.52.27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/341_0_eb70d5ea02b0a6788a1b39f00acec070.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/341_eb70d5ea02b0a6788a1b39f00acec070.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/345_0_5551dc7bdbc49305b6ce74959c1bc48d.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/345_5551dc7bdbc49305b6ce74959c1bc48d.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/349_0_d7d1303464ee144af0e21b1fc4973ab9.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/349_d7d1303464ee144af0e21b1fc4973ab9.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/353_0_fba7fff2afa57cdad18d80a87f109d2f.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/353_fba7fff2afa57cdad18d80a87f109d2f.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/357_0_c5b2a350d7bb7f3177eca76c8dd9b0f2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/357_c5b2a350d7bb7f3177eca76c8dd9b0f2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/361_0_84176465bafc21b9488362579c82b4ce.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/361_84176465bafc21b9488362579c82b4ce.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/365_0_638adc03e98342eee08c751bc3b45d5f.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/365_638adc03e98342eee08c751bc3b45d5f.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/369_0_89d327d6279d6d5780b21d8af680e5c4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/369_89d327d6279d6d5780b21d8af680e5c4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/373_0_4e206ef2407882dafebaf5b1a0189bae.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/373_4e206ef2407882dafebaf5b1a0189bae.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/377_0_759537afd73f9f5f03877f6e65e85a25.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/377_759537afd73f9f5f03877f6e65e85a25.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/381_0_e51e0594bc7d6b5a84fe31bea41ced59.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/381_e51e0594bc7d6b5a84fe31bea41ced59.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/385_0_feb33e25ef3eb9868e03c671489815c4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/385_feb33e25ef3eb9868e03c671489815c4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/393_0_fc8374557c85152c95396a63dd0fe854.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/393_fc8374557c85152c95396a63dd0fe854.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/397_0_ad78914d303f69155c9a1f816a301f2c.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/397_ad78914d303f69155c9a1f816a301f2c.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/4.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/401_0_53a986c6992a62af46e9e7401335fa95.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/401_53a986c6992a62af46e9e7401335fa95.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/405_0_5c3212fe2715c6b37a5c2c22daf9383d.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/405_5c3212fe2715c6b37a5c2c22daf9383d.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/413_0_dfd982e744cf6c66e895b47fe05fe4ec.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/413_dfd982e744cf6c66e895b47fe05fe4ec.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/417_0_b49e835347b4341483816a615da198d2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/417_b49e835347b4341483816a615da198d2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/425_0_81c43f05469c911af02e808613c0b008.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/425_81c43f05469c911af02e808613c0b008.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/429_0_bb47c13afd801396c4cca2b1d0cd2791.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/429_bb47c13afd801396c4cca2b1d0cd2791.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/433_0_df59e36d611332006c61309d82939854.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/433_df59e36d611332006c61309d82939854.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/441_0_9918c8ad876a47f53aadb415cafa019b.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/441_9918c8ad876a47f53aadb415cafa019b.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/445_0_4d892c2e21745e2dc85827d0accde0ae.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/445_4d892c2e21745e2dc85827d0accde0ae.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/449_0_318554d04199efb7339290d81b565057.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/449_318554d04199efb7339290d81b565057.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/453_0_5471d1a2fe6c203fe8f2a91993b3238a.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/453_5471d1a2fe6c203fe8f2a91993b3238a.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/457_0_77b1627530c008497589a6f6925d6266.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/457_77b1627530c008497589a6f6925d6266.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/461_dc6c4b2bdb5f74f1965dbb0040507aff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/465_a71ba0146504a4e46df7f15372fc2372.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/4689557__17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/469_6480216dcb2e5390b01d6f077083dc8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/473_6f9ac12598ac05ed6904dc3027865a0a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/4772136_.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/4772785_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/4772787_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/4772789_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/477_456236dd3dc8b1da3193155314750557.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/484_953c7f43c4bc465315b1a7e9777b8e3b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/488_18c85dca2a03d37b99df266aeead6264.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/492_5c1c3763faa3b69d41676db36374e279.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/496_35c47ca32c9e03a3ae0274bd3b9baa7f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/5.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/500_658e4953e42dc92d8aa07d7505933948.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/508_b2dd87989e5b6f7bac9b4c3ae452477e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/512_d5723617d20f3ac05becfe50326b3198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/592_63e36a1abf1879bbcbb771eb7e20e99b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/6.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/659_b609b84ed8b8e38904adc505d51c1716.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/672_cb71ee3d262edeb990a19a0f0ea5036f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/676_52cb7efe45f2cb077bef253414d2c922.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/690_66ff4e357391b5db7dad4db009e3d934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/694_21fa189ef595a5cdeb015cc1988d8d08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/698_3194050e9b8ce9954ff339a902482857.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/7.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/702_60884ad19c4a5b0ece333aaae025ec55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/706_c4bc5083119a9963de8e7c6bc0a6e401.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/710_d228110c436e44c3be55cd1cc42a173a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/714_31ef548558a41fb4bb7449f7b2b3c9ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/718_5f954cc50ff2678f172756fcbb679af0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/722_9204e71d36a8e5d85efaf08427679e81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/726_0_39_canvas fabric texture-seamless.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/726_39_canvas fabric texture-seamless.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/759_0_Fabric white.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/759_Fabric white.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/763_da487353085190aa0d553a03488d5cff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/767_5ea0d043a26f449131e753a3dfb7901e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/771_450e38f4b82cd113dfd64c2520694225.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/790_big_lucens_aqua_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/798_lego.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/8.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/806_cliparti1-transformers-clip-art.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/813_223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/838_pik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/852_7e2c7f36607dba32ae604cabdbb044d8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/856_0_9a9d93bda8ffb2491e1d9115e8b4880a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/856_9a9d93bda8ffb2491e1d9115e8b4880a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/9.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/986_0_d6f07b0e9675878e4f98180add8b8979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/990_0_52f6e7a42c49ca2db1946fe6c905be1e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/B7g84a9E.svf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/B7g84a9E.svf.png01_thumb_100x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/B7g84a9E.svf.png01_thumb_200x200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/B7g84a9E.svf.png01_thumb_400x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/CameraDefinitions.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/CameraList.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/FragmentList.pack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/GeometryMetadata.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/InstanceTree.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/LightDefinitions.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/LightList.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/Materials.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/Set.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/Topology.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/objects_attrs.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/objects_avs.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/objects_ids.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/objects_offs.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/objects_vals.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/objects_viewables.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/1/properties.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/img/forge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/app/src/main/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/BimWalk/BimWalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/BimWalk/BimWalk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/FirstPerson/FirstPerson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/FirstPerson/FirstPerson.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/InViewerSearch/InViewerSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/InViewerSearch/InViewerSearch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/Markups/Markups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/Markups/Markups.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/Measure/res/icon-spinner-sm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/Wireframes/Wireframes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/extensions/Wireframes/Wireframes.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/lmvworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/lmvworker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/CoolLight_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/CoolLight_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/DarkSky_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/DarkSky_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/GreyRoom_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/GreyRoom_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/GridLight_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/GridLight_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/IDViz_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/IDViz_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/InfinityPool_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/InfinityPool_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/PhotoBooth_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/PhotoBooth_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/Plaza_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/Plaza_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/Reflection_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/Reflection_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/RimHighlights_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/RimHighlights_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/SharpHighlights_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/SharpHighlights_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/SnowField_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/SnowField_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/SoftLight_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/SoftLight_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/TranquilityBlue_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/TranquilityBlue_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/WarmLight_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/WarmLight_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/boardwalk_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/boardwalk_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/crossroads_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/crossroads_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/field_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/field_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/glacier_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/glacier_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/riverbank_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/riverbank_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/seaport_irr.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/environments/seaport_mipdrop.logluv.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/cs/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/cs/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/de/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/de/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/en/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/en/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/es/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/es/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/fr/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/fr/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/it/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/it/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/ja/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/ja/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/ko/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/ko/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/pl/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/pl/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/pt-BR/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/pt-BR/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/ru/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/ru/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/tr/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/tr/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/zh-HANS/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/zh-HANS/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/zh-HANT/VCcrossRGBA8small.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/locales/zh-HANT/allstrings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VCarrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VCarrowsS0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VCarrowsS1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VCcontext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VCcontextS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VCedge1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VChome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/VChomeS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/cardinalPoint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/centerMarker_X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/res/textures/radial-fade-grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/searchworker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/searchworker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/socket.io-1.3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/three.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/three.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/viewer3D.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/viewer3D.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/wgs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/app/src/main/assets/lmv/3.3/wgs.min.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nwzH91jLhb17kL41iD75Ej1edY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6eba360-96da-4d2f-8ed8-f782327192b2" name="Default Changelist" comment="" />
+      <created>1612315850924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612315850924</updated>
+    </task>
+    <servers />
+  </component>
+</project>
