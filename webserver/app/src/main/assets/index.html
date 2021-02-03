@@ -1,0 +1,187 @@
+<!--/////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) Autodesk, Inc. All rights reserved
+// Written by Philippe Leefsma 2017 - ADN/Developer Technical Services
+//
+// Permission to use, copy, modify, and distribute this software in
+// object code form for any purpose and without fee is hereby granted,
+// provided that the above copyright notice appears in all copies and
+// that both that copyright notice and the limited warranty and
+// restricted rights notice below appear in all supporting
+// documentation.
+//
+// AUTODESK PROVIDES THIS PROGRAM "AS IS" AND WITH ALL FAULTS.
+// AUTODESK SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF
+// MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE.  AUTODESK, INC.
+// DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
+// UNINTERRUPTED OR ERROR FREE.
+////////////////////////////////////////////////////////////////////////////////-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, height=device-height, minimal-ui, minimum-scale=1, initial-scale=1, user-scalable=no"/>
+        
+        <link rel="stylesheet" href="./lmv/3.3/style.min.css" type="text/css"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+            <meta name="mobile-web-app-capable" content="yes"/>
+            <title>
+                Forge Viewer
+            </title>
+            <meta charset="utf-8">
+                <style>
+                    .viewer {
+                        background: whitesmoke;
+                        height: 100vh;
+                        width: 100vw;
+                    }
+                body {
+                    margin:0
+                }
+                </style>
+                <style>
+                    #viewer #navTools #toolbar-panTool{display:block !important}
+                    #viewer #navTools #toolbar-orbitTools{display:block !important;}
+                    #viewer #navTools #toolbar-zoomTool{display:block !important}
+                    #viewer #navTools #toolbar-bimWalkTool{display:block !important}
+                    #viewer #navTools #toolbar-firstPersonTool{display:block !important}
+                    #viewer #navTools #toolbar-cameraSubmenuTool{display:block !important}
+                    #viewer #modelTools #toolbar-measurementSubmenuTool{display: none !important}
+                    #viewer #modelTools #toolbar-measureTool{display:none !important}
+                    #viewer #modelTools #toolbar-explodeTool{display:none !important}
+                    #viewer #modelTools #toolbar-sectionTool{display:block !important}
+                    #viewer #modelTools{background-color: rgba(34,34,34,1);margin: 0px;box-shadow:none;border-top-left-radius: 0px;border-top-right-radius: 5px;border-bottom-left-radius: 0px;border-bottom-right-radius: 5px;}
+                    #viewer #navTools{background-color: rgba(34,34,34,1);margin: 0px;box-shadow:none;border-top-left-radius: 5px;border-top-right-radius: 0px;border-bottom-left-radius: 5px;border-bottom-right-radius: 0px}
+                    /* #viewer #guiviewer3d-toolbar{background-color: rgba(34,34,34,1);border-radius: 5px;padding: 0px;width: 300px;} */
+                    #viewer #guiviewer3d-toolbar{background-color: rgba(34, 34, 34, 0);padding: 0px;}
+                    /* #viewer > div > div.progressbg {display: none;} */
+                    </style>
+                
+                </head>
+    <body>
+        
+        <div id="viewer" class="viewer"></div>
+        <!--        <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>-->
+        <script src="./lmv/3.3/viewer3D.js"></script>
+        
+        <script>
+            var viewerDiv = document.getElementById("viewer")
+            var viewer = new Autodesk.Viewing.Private.GuiViewer3D(viewerDiv)
+            var e = new KeyboardEvent('keyE', { bubbles : true, cancelable : true, char : 'E', key : 'e', shiftKey : true, keyCode : 69 });
+            var q = new KeyboardEvent('keyQ', { bubbles : true, cancelable : true, char : 'Q', key : 'q', shiftKey : true, keyCode : 81 });
+            var w = new KeyboardEvent('keyW', { bubbles : true, cancelable : true, char : 'W', key : 'w', shiftKey : true, keyCode : 87 });
+            var a = new KeyboardEvent('keyA', { bubbles : true, cancelable : true, char : 'A', key : 'a', shiftKey : true, keyCode : 65 });
+            var s = new KeyboardEvent('keyS', { bubbles : true, cancelable : true, char : 'S', key : 's', shiftKey : true, keyCode : 83 });
+            var d = new KeyboardEvent('keyD', { bubbles : true, cancelable : true, char : 'D', key : 'd', shiftKey : true, keyCode : 68 });
+            function initialize (options) {
+                
+                return new Promise(function(resolve, reject) {
+                    
+                    Autodesk.Viewing.Initializer (options,
+                                                  function () {
+                        
+                        resolve ()
+                        
+                    }, function(error){
+                        
+                        reject (error)
+                    })
+                })
+            }
+        function loadDocument (urn) {
+            
+            return new Promise(function(resolve, reject) {
+                
+                var paramUrn = !urn.startsWith("urn:")
+                ? "urn:" + urn
+                : urn
+                
+                Autodesk.Viewing.Document.load(paramUrn,
+                                               function(doc) {
+                    
+                    resolve (doc)
+                    
+                }, function (error) {
+                    
+                    reject (error)
+                })
+            })
+        }
+        function getViewableItems (doc, roles) {
+            
+            var rootItem = doc.getRootItem()
+            
+            var items = []
+            
+            var roleArray = roles
+            ? (Array.isArray(roles) ? roles : [roles])
+            : []
+            
+            roleArray.forEach(function(role) {
+                
+                var subItems =
+                Autodesk.Viewing.Document.getSubItemsWithProperties(
+                                                                    rootItem, { type: "geometry", role: role }, true)
+                                                                    
+                                                                    items = items.concat(subItems)
+            })
+            
+            return items
+        }
+        function getQueryParam (name, url) {
+            
+            if (!url) url = window.location.href;
+            name = name.replace(/[\\[\\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\\+/g, " "));
+        }
+        initialize({
+            
+            //acccessToken: getQueryParam("acccessToken"),
+            env: "Local"
+            
+        }).then(function() {
+            
+            viewer.addEventListener(Autodesk.Viewing.TOOLBAR_CREATED_EVENT, function (event) {
+                viewer.fitToView(true);
+                viewer.navTools.setVisible(false);
+                viewer.modelTools.setVisible(false);
+                viewer.settingsTools.setVisible(false);
+                
+            });
+            viewer.addEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, function (event) {
+                
+                viewer.navTools.setVisible(true);
+                viewer.modelTools.setVisible(true);
+                viewer.fitToView()
+                
+            });
+            viewer.start()
+            
+            //      viewer.loadModel('./www/models/3D6/0.svf')
+            viewer.loadModel('./0/0.svf')
+            viewer.addEventListener(Autodesk.Viewing.MODEL_LAYERS_LOADED_EVENT, function (event) {
+                var nav = viewer.navigation
+
+var pos = nav.getPosition()
+
+var target = nav.getTarget()
+
+var viewdir = new THREE.Vector3()
+
+viewdir.subVectors (pos, target).normalize()
+
+// zooms out by 100 along the view direction
+viewdir.multiplyScalar (25)
+
+pos.add(viewdir)
+
+nav.setPosition(pos)
+            })
+        })
+        
+            </script>
+        
+    </body>
+</html>
